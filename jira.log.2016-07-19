@@ -1,0 +1,302 @@
+17:38:42 DEBUG: Hooks - ***** START of Scenario: Checkout *****
+17:38:42 INFO : InitDriver - ===============================================================
+17:38:42 INFO : InitDriver - |          Environment : ft
+17:38:42 INFO : InitDriver - |          Operating System : Windows 10
+17:38:42 INFO : InitDriver - |          Browser: chrome
+17:38:42 INFO : InitDriver - |          Browser config file: chrome.properties
+17:38:42 INFO : InitDriver - ===============================================================
+
+17:38:42 DEBUG: WebDriverConfig - File: chrome.properties exists
+17:38:42 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+17:38:42 INFO : WebDriverConfig - Browser is: chrome
+17:38:42 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+17:38:42 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+17:38:52 INFO : WebDriverConfig - ===============================================================
+17:38:52 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+17:38:52 INFO : WebDriverConfig - ===============================================================
+
+17:38:56 INFO : WebLocator - sendKeys value(txLoginEmail): 'testare1984@gmail.com'
+17:38:57 INFO : WebLocator - sendKeys value(txLoginPassword): 'remussic'
+17:38:57 INFO : WebLocator - click on Intră în contul tău
+17:38:58 INFO : WebLocator - click on Produse noi
+17:39:00 INFO : WebLocator - click on Balsam hidratant
+17:39:02 INFO : WebLocator - click on Adaugă în coş
+17:39:03 INFO : WebLocator - click on Finalizează comanda acum 
+17:39:04 INFO : WebLocator - click on Finalizează comanda 
+17:39:04 INFO : WebLocator - click on Continuare
+17:39:06 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Continuare
+17:39:06 INFO : WebLocator - click on Continuare
+17:39:06 INFO : WebLocator - click on Online cu card bancar
+17:39:07 INFO : WebLocator - click on Continuare
+17:39:07 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Sunt de acord şi am luat la cunoştinţă 
+17:39:08 INFO : WebLocator - click on Sunt de acord şi am luat la cunoştinţă 
+17:39:08 INFO : WebLocator - click on Finalizează comanda
+17:39:08 WARN : Hooks - "Checkout" scenario has failed! Screenshot embedded in the report.
+17:39:09 DEBUG: Hooks - ***** END of Scenario: Checkout *****
+17:39:09 INFO : WebDriverConfig - ===============================================================
+17:39:09 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+17:39:09 INFO : WebDriverConfig - ===============================================================
+17:39:12 DEBUG: WebDriverConfig - ===============================================================
+17:39:12 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+17:39:12 DEBUG: WebDriverConfig - ===============================================================
+
+18:12:54 DEBUG: Hooks - ***** START of Scenario: Checkout *****
+18:12:54 INFO : InitDriver - ===============================================================
+18:12:54 INFO : InitDriver - |          Environment : ft
+18:12:54 INFO : InitDriver - |          Operating System : Windows 10
+18:12:54 INFO : InitDriver - |          Browser: chrome
+18:12:54 INFO : InitDriver - |          Browser config file: chrome.properties
+18:12:54 INFO : InitDriver - ===============================================================
+
+18:12:54 DEBUG: WebDriverConfig - File: chrome.properties exists
+18:12:54 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+18:12:54 INFO : WebDriverConfig - Browser is: chrome
+18:12:54 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:12:54 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:12:59 INFO : WebDriverConfig - ===============================================================
+18:12:59 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+18:12:59 INFO : WebDriverConfig - ===============================================================
+
+18:13:09 INFO : WebLocator - sendKeys value(txLoginEmail): 'testare1984@gmail.com'
+18:13:09 INFO : WebLocator - sendKeys value(txLoginPassword): 'remussic'
+18:13:09 INFO : WebLocator - click on Intră în contul tău
+18:13:10 INFO : WebLocator - click on Produse noi
+18:13:12 INFO : WebLocator - click on Balsam hidratant
+18:13:14 INFO : WebLocator - click on Adaugă în coş
+18:13:15 INFO : WebLocator - click on Finalizează comanda acum 
+18:13:15 INFO : WebLocator - click on Finalizează comanda 
+18:13:16 INFO : WebLocator - click on Continuare
+18:13:17 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Continuare
+18:13:17 WARN : Hooks - "Checkout" scenario has failed! Screenshot embedded in the report.
+18:13:18 DEBUG: Hooks - ***** END of Scenario: Checkout *****
+18:13:18 INFO : WebDriverConfig - ===============================================================
+18:13:18 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+18:13:18 INFO : WebDriverConfig - ===============================================================
+18:13:19 DEBUG: WebDriverConfig - ===============================================================
+18:13:19 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+18:13:19 DEBUG: WebDriverConfig - ===============================================================
+
+18:14:17 DEBUG: Hooks - ***** START of Scenario: Checkout *****
+18:14:17 INFO : InitDriver - ===============================================================
+18:14:17 INFO : InitDriver - |          Environment : ft
+18:14:17 INFO : InitDriver - |          Operating System : Windows 10
+18:14:17 INFO : InitDriver - |          Browser: chrome
+18:14:17 INFO : InitDriver - |          Browser config file: chrome.properties
+18:14:17 INFO : InitDriver - ===============================================================
+
+18:14:17 DEBUG: WebDriverConfig - File: chrome.properties exists
+18:14:17 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+18:14:17 INFO : WebDriverConfig - Browser is: chrome
+18:14:17 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:14:17 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:14:21 INFO : WebDriverConfig - ===============================================================
+18:14:21 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+18:14:21 INFO : WebDriverConfig - ===============================================================
+
+18:14:24 INFO : WebLocator - sendKeys value(txLoginEmail): 'testare1984@gmail.com'
+18:14:24 INFO : WebLocator - sendKeys value(txLoginPassword): 'remussic'
+18:14:24 INFO : WebLocator - click on Intră în contul tău
+18:14:25 INFO : WebLocator - click on Produse noi
+18:14:27 INFO : WebLocator - click on Balsam hidratant
+18:14:29 INFO : WebLocator - click on Adaugă în coş
+18:14:29 INFO : WebLocator - click on Finalizează comanda acum 
+18:14:30 INFO : WebLocator - click on Finalizează comanda 
+18:14:30 INFO : WebLocator - click on Continuare
+18:14:32 INFO : WebLocator - click on Continuare
+18:14:32 INFO : WebLocator - click on Online cu card bancar
+18:14:32 INFO : WebLocator - click on Continuare
+18:14:33 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Sunt de acord şi am luat la cunoştinţă 
+18:14:33 INFO : WebLocator - click on Sunt de acord şi am luat la cunoştinţă 
+18:14:33 INFO : WebLocator - click on Finalizează comanda
+18:14:33 WARN : Hooks - "Checkout" scenario has failed! Screenshot embedded in the report.
+18:14:35 DEBUG: Hooks - ***** END of Scenario: Checkout *****
+18:14:35 INFO : WebDriverConfig - ===============================================================
+18:14:35 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+18:14:35 INFO : WebDriverConfig - ===============================================================
+18:14:36 DEBUG: WebDriverConfig - ===============================================================
+18:14:36 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+18:14:36 DEBUG: WebDriverConfig - ===============================================================
+
+18:16:01 DEBUG: Hooks - ***** START of Scenario: Checkout *****
+18:16:01 INFO : InitDriver - ===============================================================
+18:16:01 INFO : InitDriver - |          Environment : ft
+18:16:01 INFO : InitDriver - |          Operating System : Windows 10
+18:16:01 INFO : InitDriver - |          Browser: chrome
+18:16:01 INFO : InitDriver - |          Browser config file: chrome.properties
+18:16:01 INFO : InitDriver - ===============================================================
+
+18:16:01 DEBUG: WebDriverConfig - File: chrome.properties exists
+18:16:02 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+18:16:02 INFO : WebDriverConfig - Browser is: chrome
+18:16:02 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:16:02 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+18:16:04 INFO : WebDriverConfig - ===============================================================
+18:16:04 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+18:16:04 INFO : WebDriverConfig - ===============================================================
+
+18:16:07 INFO : WebLocator - sendKeys value(txLoginEmail): 'testare1984@gmail.com'
+18:16:07 INFO : WebLocator - sendKeys value(txLoginPassword): 'remussic'
+18:16:07 INFO : WebLocator - click on Intră în contul tău
+18:16:08 INFO : WebLocator - click on Produse noi
+18:16:10 INFO : WebLocator - click on Balsam hidratant
+18:16:12 INFO : WebLocator - click on Adaugă în coş
+18:16:12 INFO : WebLocator - click on Finalizează comanda acum 
+18:16:12 INFO : WebLocator - click on Finalizează comanda 
+18:16:13 INFO : WebLocator - click on Continuare
+18:16:14 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Continuare
+18:16:14 INFO : WebLocator - click on Continuare
+18:16:15 INFO : WebLocator - click on Online cu card bancar
+18:16:15 INFO : WebLocator - click on Continuare
+18:16:16 ERROR: WebLocatorDriverExecutor - WebDriverException in doClick: Sunt de acord şi am luat la cunoştinţă 
+18:16:16 INFO : WebLocator - click on Sunt de acord şi am luat la cunoştinţă 
+18:16:16 INFO : WebLocator - click on Finalizează comanda
+18:16:21 WARN : WebLocatorDriverExecutor - Element not found after 5000 millis; CARD
+18:16:21 DEBUG: WebLocatorDriverExecutor - 	$x("//input[@name='CARD']")
+18:16:21 DEBUG: WebLocatorSuggestions - getSuggestion >> enter
+18:16:30 DEBUG: WebLocatorSuggestions - No suggestions found for CARD
+18:16:30 DEBUG: WebLocatorSuggestions - getSuggestion << exit
+18:16:30 WARN : Hooks - "Checkout" scenario has failed! Screenshot embedded in the report.
+18:16:31 DEBUG: Hooks - ***** END of Scenario: Checkout *****
+18:16:31 INFO : WebDriverConfig - ===============================================================
+18:16:31 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+18:16:31 INFO : WebDriverConfig - ===============================================================
+18:16:32 DEBUG: WebDriverConfig - ===============================================================
+18:16:32 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+18:16:32 DEBUG: WebDriverConfig - ===============================================================
+
