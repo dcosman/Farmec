@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zikyo" target="1.7" />
+      <module name="zikyo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
