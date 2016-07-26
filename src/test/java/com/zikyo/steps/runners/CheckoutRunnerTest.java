@@ -16,5 +16,5 @@ import cucumber.api.CucumberOptions;
                 "src/test/resources/features/checkout.feature"
         }
 )
-public class CheckoutRunner {
+public class CheckoutRunnerTest {
 }

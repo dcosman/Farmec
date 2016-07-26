@@ -19,8 +19,6 @@ Feature: Checkout
       And I click on link with text "Finalizează comanda"
       And I fill in credit card information
 
-
-
   Scenario: Checkout with cash courier
      Given I open url"https://dev2.farmec.ro/autentificare.html"
      And I login with "testare1984@gmail.com"/"parola"
