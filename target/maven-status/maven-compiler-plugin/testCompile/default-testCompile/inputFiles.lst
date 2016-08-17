@@ -1,0 +1,13 @@
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\registerSteps\RegisterSteps.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\creditCardSteps\MyCreditCardSteps.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\common\InitDriver.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\runners\LoginRunner.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\common\inputData\LoginData.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\genericSteps\GenericSteps.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\Hooks.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\loginSteps\LoginSteps.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\common\inputData\CheckoutData.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\common\EnvConfig.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\runners\RegisterRunner.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\runners\CheckoutRunner.java
+D:\Farmec\zikyoAutomation-master\src\test\java\com\zikyo\steps\TestBase.java

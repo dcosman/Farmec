@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [com.zikyo.steps.TestBase]">
+  <test name="Command line test 5e3e8507-caa5-4070-b73b-bb5fcc38a2de">
+    <classes>
+      <class name="com.zikyo.steps.TestBase"/>
+    </classes>
+  </test> <!-- Command line test 5e3e8507-caa5-4070-b73b-bb5fcc38a2de -->
+</suite> <!-- Failed suite [com.zikyo.steps.TestBase] -->

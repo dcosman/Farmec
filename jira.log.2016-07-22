@@ -1,0 +1,210 @@
+09:41:19 DEBUG: Hooks - ***** START of Scenario: Register without confirm the same address email *****
+09:41:20 INFO : InitDriver - ===============================================================
+09:41:20 INFO : InitDriver - |          Environment : ft
+09:41:20 INFO : InitDriver - |          Operating System : Windows 10
+09:41:20 INFO : InitDriver - |          Browser: chrome
+09:41:20 INFO : InitDriver - |          Browser config file: chrome.properties
+09:41:20 INFO : InitDriver - ===============================================================
+
+09:41:20 DEBUG: WebDriverConfig - File: chrome.properties exists
+09:41:20 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+09:41:20 INFO : WebDriverConfig - Browser is: chrome
+09:41:20 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:41:20 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:41:24 INFO : WebDriverConfig - ===============================================================
+09:41:24 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+09:41:24 INFO : WebDriverConfig - ===============================================================
+
+09:41:32 WARN : WebLocatorDriverExecutor - Element not found after 5000 millis; @placeholder=account-email
+09:41:32 DEBUG: WebLocatorDriverExecutor - 	$x("//input[@placeholder='account-email']")
+09:41:32 DEBUG: WebLocatorSuggestions - getSuggestion >> enter
+09:41:42 DEBUG: WebLocatorSuggestions - No suggestions found for @placeholder=account-email
+09:41:42 DEBUG: WebLocatorSuggestions - getSuggestion << exit
+09:41:42 WARN : Hooks - "Register without confirm the same address email" scenario has failed! Screenshot embedded in the report.
+09:41:42 DEBUG: Hooks - ***** END of Scenario: Register without confirm the same address email *****
+09:41:42 INFO : WebDriverConfig - ===============================================================
+09:41:42 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+09:41:42 INFO : WebDriverConfig - ===============================================================
+09:41:44 DEBUG: WebDriverConfig - ===============================================================
+09:41:44 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+09:41:44 DEBUG: WebDriverConfig - ===============================================================
+
+09:42:43 DEBUG: Hooks - ***** START of Scenario: Register without confirm the same address email *****
+09:42:43 INFO : InitDriver - ===============================================================
+09:42:43 INFO : InitDriver - |          Environment : ft
+09:42:43 INFO : InitDriver - |          Operating System : Windows 10
+09:42:43 INFO : InitDriver - |          Browser: chrome
+09:42:43 INFO : InitDriver - |          Browser config file: chrome.properties
+09:42:43 INFO : InitDriver - ===============================================================
+
+09:42:43 DEBUG: WebDriverConfig - File: chrome.properties exists
+09:42:43 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+09:42:43 INFO : WebDriverConfig - Browser is: chrome
+09:42:43 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:42:43 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:42:47 INFO : WebDriverConfig - ===============================================================
+09:42:47 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+09:42:47 INFO : WebDriverConfig - ===============================================================
+
+09:42:50 DEBUG: WebDriverConfig - Preview tab id: CDwindow-3FAAF99A-63B8-45A5-BC7C-154FEC590ABD
+09:42:50 INFO : WebDriverConfig - Preview tab title : FARMEC - Brand Românesc
+09:42:50 DEBUG: WebDriverConfig - Switch to tab id: CDwindow-3FAAF99A-63B8-45A5-BC7C-154FEC590ABD
+09:42:50 INFO : WebDriverConfig - Current tab title : FARMEC - Brand Românesc
+09:42:50 INFO : WebLocatorUtils - 
+
+$x("//input[@id='account-email']")
+
+09:42:50 INFO : WebLocatorDriverExecutor - Set value(account-email): 'terwsdfasd'
+09:42:50 DEBUG: Hooks - ***** END of Scenario: Register without confirm the same address email *****
+09:42:50 INFO : WebDriverConfig - ===============================================================
+09:42:50 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+09:42:50 INFO : WebDriverConfig - ===============================================================
+09:42:51 DEBUG: WebDriverConfig - ===============================================================
+09:42:51 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+09:42:51 DEBUG: WebDriverConfig - ===============================================================
+
+09:45:10 DEBUG: Hooks - ***** START of Scenario: Register without confirm the same address email *****
+09:45:10 INFO : InitDriver - ===============================================================
+09:45:10 INFO : InitDriver - |          Environment : ft
+09:45:10 INFO : InitDriver - |          Operating System : Windows 10
+09:45:10 INFO : InitDriver - |          Browser: chrome
+09:45:10 INFO : InitDriver - |          Browser config file: chrome.properties
+09:45:10 INFO : InitDriver - ===============================================================
+
+09:45:10 DEBUG: WebDriverConfig - File: chrome.properties exists
+09:45:10 INFO : WebLocatorConfig - 
+	weblocator.log.containers=false
+	weblocator.log.useClassName=false
+	weblocator.log.xPath=true
+	weblocator.log.retryException=true
+	weblocator.log.suggestions=true
+	weblocator.highlight=true
+	weblocator.generateCssSelector=false
+	weblocator.defaults.renderMillis=5000
+	weblocator.defaults.searchType=contains
+	weblocator.defaults.labelPosition=/parent::*/following-sibling::div[1]//
+	weblocator.min.chars.toType=-1
+	driver.autoClose=true
+	driver.implicitlyWait=150
+	upload.exe.path=src\test\resources\upload\upload.exe
+	weblocator.log.logXPathEnabled=true
+
+09:45:10 INFO : WebDriverConfig - Browser is: chrome
+09:45:10 INFO : WebDriverConfig - 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:45:10 INFO : ChromeConfigReader - The properties was load with success: 
+	browser=chrome
+	browser.driver.path=src\test\resources\drivers\chromedriver.exe
+	browser.download.dir=src/test/resources/downloads/
+	options.arguments=--lang=en --allow-running-insecure-content --enable-logging --v=1 --test-type
+	options.experimental.profile.default_content_setting_values.automatic_downloads=1
+	options.experimental.profile.content_settings.pattern_pairs.*.multiple-automatic-downloads=1
+	options.experimental.profile.default_content_settings.popups=0
+	options.experimental.download.prompt_for_download=1
+
+09:45:12 INFO : WebDriverConfig - ===============================================================
+09:45:12 INFO : WebDriverConfig - |          Open Selenium Web Driver 
+09:45:12 INFO : WebDriverConfig - ===============================================================
+
+09:45:15 DEBUG: WebDriverConfig - Preview tab id: CDwindow-104DA9EB-5B12-4A76-B193-2B302DCCC503
+09:45:15 INFO : WebDriverConfig - Preview tab title : FARMEC - Brand Românesc
+09:45:15 DEBUG: WebDriverConfig - Switch to tab id: CDwindow-104DA9EB-5B12-4A76-B193-2B302DCCC503
+09:45:15 INFO : WebDriverConfig - Current tab title : FARMEC - Brand Românesc
+09:45:15 INFO : WebLocatorUtils - 
+
+$x("//input[@id='account-email']")
+
+09:45:16 INFO : WebLocatorDriverExecutor - Set value(account-email): 'testare1984@gmail.com'
+09:45:16 DEBUG: WebDriverConfig - Preview tab id: CDwindow-104DA9EB-5B12-4A76-B193-2B302DCCC503
+09:45:16 INFO : WebDriverConfig - Preview tab title : FARMEC - Brand Românesc
+09:45:16 DEBUG: WebDriverConfig - Switch to tab id: CDwindow-104DA9EB-5B12-4A76-B193-2B302DCCC503
+09:45:16 INFO : WebDriverConfig - Current tab title : FARMEC - Brand Românesc
+09:45:16 INFO : WebLocatorUtils - 
+
+$x("//input[@id='confirm-email']")
+
+09:45:16 INFO : WebLocatorDriverExecutor - Set value(confirm-email): 'not the same address'
+09:45:16 DEBUG: Hooks - ***** END of Scenario: Register without confirm the same address email *****
+09:45:16 INFO : WebDriverConfig - ===============================================================
+09:45:16 INFO : WebDriverConfig - |          Stopping driver (closing browser)                   |
+09:45:16 INFO : WebDriverConfig - ===============================================================
+09:45:17 DEBUG: WebDriverConfig - ===============================================================
+09:45:17 DEBUG: WebDriverConfig - |         Driver stopped (browser closed)                     |
+09:45:17 DEBUG: WebDriverConfig - ===============================================================
+
