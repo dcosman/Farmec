@@ -3,8 +3,8 @@
 
     Scenario: Register Successful
       Given I open url"https://dev2.farmec.ro/cont-nou.html"
-      And I type "testare1984@gmail.com" into "account-email" with id
-      And I type "testare1984@gmail.com" into "confirm-email" with id
+      And I type "testare1984+102@gmail.com" into "account-email" with id
+      And I type "testare1984+102@gmail.com" into "confirm-email" with id
       And I type "parola" into "account-password" with id
       And I type "parola" into "confirm-password" with id
       And I type "Pop" into "last-name" with id
@@ -17,7 +17,7 @@
       And I type into captcha field
       And I click on button with text "Înregistrează-te"
       Then I should see an element with text "Contul meu"
-      And I wait 40 seconds
+
 
 
     Scenario: Register without confirm the same address email

@@ -315,7 +315,7 @@ public class GenericSteps extends TestBase {
     }
 
     @Given("^I open url\"([^\"]*)\"$")
-    public void iOpenUrl(String url) throws Throwable {
+    public void iOpenUrl(String url)  {
         WebDriverConfig.getDriver().navigate().to(url);
 
     }

@@ -1,5 +1,6 @@
 package com.zikyo.steps.creditCardSteps;
 
+import com.sdl.selenium.web.WebLocator;
 import com.zikyo.utils.Farmec.CardView;
 import com.zikyo.utils.TestUtils;
 import cucumber.api.java.en.And;
@@ -24,6 +25,10 @@ public class MyCreditCardSteps {
     }
 
 
-
+    @And("^I click on  label \"([^\"]*)\" with class$")
+    public void iClickOnLabelWithClass(String arg0) {
+        WebLocator editSpan = new WebLocator("pull-right edit").setText("Editează");
+        editSpan.click();
 
     }
+}
