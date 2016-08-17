@@ -1,10 +1,10 @@
 package com.zikyo.steps.runners;
 
-
-
-
 import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
 
+@RunWith(Cucumber.class)
 
 @CucumberOptions(
         monochrome = true,
@@ -16,5 +16,5 @@ import cucumber.api.CucumberOptions;
                 "src/test/resources/features/checkout.feature"
         }
 )
-public class CheckoutRunner {
+public class CheckoutRunnerTest {
 }
